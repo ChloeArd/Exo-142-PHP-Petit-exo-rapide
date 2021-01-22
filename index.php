@@ -10,6 +10,6 @@ for ($i = 0; $i <= 3; $i++){
 }
 ?>
 
-<ul><?php foreach ($array as $all){echo $all."<br>";} ?></ul>
+<ul><?php foreach ($array as $all){echo "<li>$all</li>";} ?></ul>
 
 
